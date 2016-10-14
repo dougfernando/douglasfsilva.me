@@ -1,0 +1,63 @@
+
+p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 16px;
+}
+a {
+	font-size: 13px;
+}
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: black;
+	cursor: pointer
+}
+a:active {
+	color: black;
+	padding-top: 2px;
+}
+#wrapper {
+	padding-left: 5%;
+}
+#pic_holder {
+	text-align: left;
+	vertical-align: middle;
+	padding-top: 5%;
+	float: left;
+	padding-right: 50px
+}
+#pic {
+	margin: 0 auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 50%;
+	background-image: url(../images/pic.jpg);
+	background-size: cover;
+	height: 350px;
+	width: 350px;
+}
+#info_holder {
+	text-align: left;
+	padding-top: 40px;
+	float: auto;
+}
+#name {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 40px;
+	line-height: 30px;
+	font-style: normal;
+	font-variant: normal;
+	margin-bottom: 0px;
+}
+#headline {
+	font-size: 20px;
+	color: gray;
+}
