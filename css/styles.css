@@ -1,26 +1,22 @@
 
 p {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 16px;
+	font-family: Helvetica, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
-	line-height: 16px;
+	line-height: 20px;
 }
-a {
-	font-size: 13px;
-}
-a:link {
-	color: black;
-}
-a:visited {
-	color: black;
+
+a:link, 
+a:visited,
+a:active,
+a:hover {
+	color:#5f6060;
 }
 a:hover {
-	color: black;
 	cursor: pointer
 }
 a:active {
-	color: black;
 	padding-top: 2px;
 }
 #wrapper {
@@ -31,7 +27,8 @@ a:active {
 	vertical-align: middle;
 	padding-top: 5%;
 	float: left;
-	padding-right: 50px
+	padding-right: 50px;
+	margin-bottom: 10px;
 }
 #pic {
 	margin: 0 auto;
@@ -41,23 +38,31 @@ a:active {
 	border-radius: 50%;
 	background-image: url(../images/pic.jpg);
 	background-size: cover;
-	height: 350px;
-	width: 350px;
+	height: 320px;
+	width: 320px;
 }
 #info_holder {
+	font-size: 13px;
 	text-align: left;
-	padding-top: 40px;
+	padding-top: 10px;
 	float: auto;
 }
+
 #name {
+	padding-top: 10px;
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-	font-size: 40px;
+	font-size: 35px;
 	line-height: 30px;
 	font-style: normal;
 	font-variant: normal;
 	margin-bottom: 0px;
 }
 #headline {
-	font-size: 20px;
+	font-size: 16px;
 	color: gray;
+}
+
+.links a {
+	font-size: 13px;
+	padding-right: 5px;
 }
