@@ -7,7 +7,7 @@ p {
 	line-height: 20px;
 }
 
-a:link, 
+a:link,
 a:visited,
 a:active,
 a:hover {
@@ -58,6 +58,7 @@ a:active {
 	margin-bottom: 0px;
 }
 #headline {
+	font-family: Helvetica, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 16px;
 	color: gray;
 }
